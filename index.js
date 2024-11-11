@@ -11,4 +11,4 @@ const app = express();
 app.use(express.static("public"));  
 
 // escucha conexiones en el puerto 3000 y muestra por consola la direccion web.  
-app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`http://54.224.244.198:${PORT}`));
